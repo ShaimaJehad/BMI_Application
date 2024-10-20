@@ -145,7 +145,7 @@ class _Screen1State extends State<Screen1> {
                                 icon: Icons.add,
                                 onPressed: () {
                                   setState(() {
-                                    weight--;
+                                    weight++;
                                   });
                                 }),
                             const SizedBox(width: 10),
@@ -153,7 +153,7 @@ class _Screen1State extends State<Screen1> {
                               icon: Icons.remove,
                               onPressed: () {
                                 setState(() {
-                                  weight++;
+                                  weight--;
                                 });
                               },
                             ),
@@ -186,7 +186,7 @@ class _Screen1State extends State<Screen1> {
                               onPressed: () {
                                 setState(
                                   () {
-                                    age--;
+                                    age++;
                                   },
                                 );
                               },
@@ -198,7 +198,7 @@ class _Screen1State extends State<Screen1> {
                                 icon: Icons.remove,
                                 onPressed: () {
                                   setState(() {
-                                    age++;
+                                    age--;
                                   });
                                 })
                           ],
